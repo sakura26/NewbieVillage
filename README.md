@@ -1,4 +1,4 @@
-# NoviceVallage
+# NewbieVillage
 
 這邊是一個給有興趣入門資訊人的基礎學習指引，目標是從僅具備基本電腦常識，進階到可以獨力完成Web應用。
 
@@ -83,16 +83,20 @@
 * 擁有一個Github帳號，這裡會是你公開程式碼與成果的地方
   * <https://github.com/>
   * <http://blog.kevinlinul.idv.tw/?p=369>
+  * **檢查點：請把你的Github帳號的網址傳給我**
 * 登入練習機（Linux Ubuntu 16.04）
   * 練習機資訊我已經個別私訊給各位
+  * **檢查點：請把你第一次登入成功的畫面截圖給我**
 * 認識環境：編輯器
   * 安裝[sublime text 3](https://www.sublimetext.com/3)
   * [sublime text 3課程](https://www.udemy.com/sublime-text-3/)
   * 或你可以[選擇別的](http://rubyer.me/blog/84/)如 [Notepad++](https://notepad-plus-plus.org/zh/) / [Rubymine](https://www.jetbrains.com/ruby/) / [NetBeans](https://netbeans.org/) / [Eclipse](https://www.eclipse.org/) / [Aptana Studio](http://www.aptana.com/) 甚至筆記本，教學自己Google
+  * **檢查點：請把編輯器打開的畫面截圖給我**
 * 排定唸書的時間
   * 一週至少四小時實體讀書會，分享學習心得
   * 一週唸書的時間至少8hr
   * 請主動於群組回報並敲定時間
+  * **檢查點：請個別回報讀書規劃給我**
 
 關於Github
 
