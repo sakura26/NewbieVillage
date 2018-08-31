@@ -71,6 +71,13 @@
 
 * [Git入門](https://backlog.com/git-tutorial/tw/) 可能有點硬，實際上你們用到的應該沒這麼多
 * [鳥哥的linux](http://linux.vbird.org/linux_basic/) 也有點硬，我找找有沒有書...不過這是很棒的一個網站，我剛學的時候都上來查資料，所以有餘力都讀過會很有幫助
+* 前端
+  * [JavaScript小遊戲: 程式碼RPG](https://codecombat.com/play)
+  * [CSS小遊戲: 找到你的午餐](https://flukeout.github.io/) 等CSS念到一半就可以來玩，很可愛的小遊戲，請以玩到通關為目標
+  * [CSS小遊戲: FLEXBOX FROGGY](https://flexboxfroggy.com/)
+  * [CSS小遊戲: GRID GARDEN](http://cssgridgarden.com/)
+  * [W3School線上課程 啥都有](http://www.w3school.com.cn)
+  * [JavaScript線上教學](https://www.codecademy.com/learn/introduction-to-javascript)
 
 **書籍**
 
@@ -97,6 +104,20 @@
   * 章節 1-22
   * 章節 27-32
 * 前端書籍待補
+
+## 讀書會
+
+有碰面就有激勵，所以來約個實體讀書會吧
+
+* 週期：每週一次 
+* 當前週期的書：
+* 每週挑戰：
+
+最主要的任務是：跟大家分享一下這週你讀了些什麼，做了些什麼，哪些特別引起你的注意（或踩了什麼雷），以及接下來預定要讀些什麼
+
+如果當日有事無法現場到，也可以先把想分享的內容打好貼到這邊
+
+要特別留意的是：請平常就找時間看書，讀書會不是給你現場抱佛腳用的。當然分享完可以現場念沒關係，但別忘了唸書的時間以及實作範例的時間都不是短短的讀書會時間可以讓你補完的
 
 ## 任務列表
 
