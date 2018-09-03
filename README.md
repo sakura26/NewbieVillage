@@ -70,9 +70,11 @@
 **免費資源**
 
 * [Git入門](https://backlog.com/git-tutorial/tw/) 可能有點硬，實際上你們用到的應該沒這麼多
+  * [VIM入門](https://gitbook.tw/chapters/command-line/vim-introduction.html) 雖然這應該放到linux基礎...有時git命令如commit或merge會跳進vim的介面讓你輸入註釋，如果你被trapped住了，請來看這邊
 * [鳥哥的linux](http://linux.vbird.org/linux_basic/) 也有點硬，我找找有沒有書...不過這是很棒的一個網站，我剛學的時候都上來查資料，所以有餘力都讀過會很有幫助
 * 前端
   * [JavaScript小遊戲: 程式碼RPG](https://codecombat.com/play)
+    * [註冊完加一下公會](https://codecombat.com/clans/5b88ddbf27e3f90035913f2d)
   * [CSS小遊戲: 找到你的午餐](https://flukeout.github.io/) 等CSS念到一半就可以來玩，很可愛的小遊戲，請以玩到通關為目標
   * [CSS小遊戲: FLEXBOX FROGGY](https://flexboxfroggy.com/)
   * [CSS小遊戲: GRID GARDEN](http://cssgridgarden.com/)
@@ -177,7 +179,29 @@ Github支援顯示的語法有好幾種，但最主要也最好用的叫做Markd
 
 ### 新手任務Lv.1
 
+* 以純HTML完成一個網頁介紹你最喜歡的作品（小說/漫畫/電影...）
+  * 請插入至少一張圖片
+  * 程式碼需推上Github
+  * **檢查點：給我網址**
+* 同上，以Markdown語言做相同的事
+  * 程式碼需推上Github
+  * **檢查點：給我網址**
+* 在Linux(Ubuntu)上安裝Ruby & Rails環境
+  * [安裝指引](https://railsbook.tw/chapters/02-environment-setup.html)
+  * **檢查點：給我截圖**
+* 完成Ruby的“Hello World”初體驗
+  * [指引](https://www.ruby-lang.org/zh_tw/documentation/quickstart/)
+  * **檢查點：給我截圖**
+
+### 新手任務Lv.2
+
 待定
+
+
+
+
+
+
 
 ##### TODO
 
