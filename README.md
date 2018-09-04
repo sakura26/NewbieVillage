@@ -195,6 +195,31 @@ Github支援顯示的語法有好幾種，但最主要也最好用的叫做Markd
 
 ### 新手任務Lv.2
 
+* 製作一個網頁，請用JavaScript/jQuery加入「輸入生日，計算年齡，未滿18歲送去迪士尼」的功能
+  * 程式碼需推上Github
+  * **檢查點：給我網址**
+* 完成RoR的“Hello World”初體驗
+  * [指引](https://ihower.tw/rails/firststep.html)
+  * 程式碼需推上Github
+  * **檢查點：給我網址**
+* 把Lv1「介紹你最喜歡的作品」用CSS裝飾得更美觀
+  * 程式碼需推上Github
+  * **檢查點：給我網址**
+
+### 新手任務Lv.3
+
+* 製作一個RoR網頁，實現「輸入email訂閱電子報」的功能，輸入的email將會儲存於Server上的/tmp/emaildump.txt中，並有一頁可以顯示目前儲存的所有email
+  * 程式碼需推上Github
+  * **檢查點：給我網址**
+* 使用Bootstrap把Lv1「介紹你最喜歡的作品」的網頁改寫
+  * [指引](http://www.runoob.com/bootstrap/bootstrap-tutorial.html)
+  * 程式碼需推上Github
+  * **檢查點：給我網址**
+
+### 新手任務Lv.4
+
+* 製作一個首頁，使用者輸入暱稱之後下次回來將會顯示該暱稱，同時有一個「忘記我的名字」
+
 待定
 
 
