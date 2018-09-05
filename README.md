@@ -193,6 +193,36 @@ Github支援顯示的語法有好幾種，但最主要也最好用的叫做Markd
   * [指引](https://www.ruby-lang.org/zh_tw/documentation/quickstart/)
   * **檢查點：給我截圖**
 
+Linux權限
+
+* ubuntu預設的權限是一般使用者，也就是你使用帳戶登進去的權限，可以做一些寫code、下載檔案之類的行為。
+* 而有一個最大權限的帳戶叫root, 跟神一樣可以為所欲為。root這個帳號權限太可怕了，很容易引發一些災難，例如不小心手滑大陸就少一半或世界就毀滅了，所以一般不允許root身份登入
+* 取而代之的是，使用sudo命令，這個命令可以允許你使用root的權限去做事，每次做這些事的時候都打入sudo是一種警醒，避免自己做出危險的行為
+* 而大多數的程式安裝都需要root身份，因為諸如系統共用函式庫 /lib 之類的地方都等同於只有神才有權限的造陸工程
+* 所以，假設原本 bash install.sh 告訴你權限不足，有時改成 sudo bash install.sh就可以了
+* 而一般安裝命令的說明會告訴你該用什麼身份來執行，如果他告訴你要用root身份卻沒有在指令前面加sudo, 自己加上去就是了
+
+安裝Ruby
+
+* 安裝的指令不難，大致上如同指引所述，不過有一點要留意：安裝到rvm的地方的時候他可能會跟你抱怨gpg憑證匯不進去或無法編譯native-gem。如果你遇到相同的問題，這麼做：
+
+```
+# 安裝系統套件
+$ sudo apt install -y build-essential zlib1g-dev ruby-dev sqlite3 libsqlite3-dev libssl-dev libreadline-dev libyaml-dev libcurl4-openssl-dev curl git-core python-software-properties nodejs
+# 安裝MySQL資料庫（這邊會問你資料庫的密碼）
+$ sudo apt -y install mysql-server mysql-client libmysqlclient-dev
+# 匯入金鑰
+$ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+# 安裝 rvm
+$ \curl -sSL https://get.rvm.io | bash -s stable
+# 安裝 rails
+$ sudo gem install rails
+```
+
+* 注意前面的 # 與 $ 符號，這代表了目前這個命令是以什麼身份執行的，一般身份會顯示為 $, 特權身份則為 # ，算是閱讀指引時的一個hint, 不要直接整段複製去執行囉。你會注意到特權身份的 # 本身也代表了註解，這是為了怕有人不小心貼上跑了指令把東西搞壞了
+* 每個命令執行都會從螢幕上得到一串回覆訊息，這些內容很重要最好閱讀過，尤其是尋找裡面有Error / Fatal / failed之類的語句，他會告訴你什麼地方出了問題，然後你就可以去Google找解答。很多時候命令是彼此相依的，中間失敗了下面就一起噴掉了
+* 建立專案的時候，他可能會跟你要求指定版本的ruby與安裝套件```bundle install```
+
 ### 新手任務Lv.2
 
 * 製作一個網頁，請用JavaScript/jQuery加入「輸入生日，計算年齡，未滿18歲送去迪士尼」的功能
