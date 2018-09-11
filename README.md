@@ -80,6 +80,8 @@
   * [CSS小遊戲: GRID GARDEN](http://cssgridgarden.com/)
   * [W3School線上課程 啥都有](http://www.w3school.com.cn)
   * [JavaScript線上教學](https://www.codecademy.com/learn/introduction-to-javascript)
+  * [從網站開始刻120分鐘試閱](https://www.everyonecanwebsite.com/)
+  * [Web前端开发 -使用 HTML, CSS, Javascript, jQuery,HTML5、CSS3 等建立网站ㄊ](https://www.udemy.com/web-html-css-javascript-jqueryhtml5css3/)
 
 **書籍**
 
@@ -136,6 +138,7 @@
   * 安裝[sublime text 3](https://www.sublimetext.com/3)
   * [sublime text 3課程](https://www.udemy.com/sublime-text-3/)
   * 或你可以[選擇別的](http://rubyer.me/blog/84/)如 [Notepad++](https://notepad-plus-plus.org/zh/) / [Rubymine](https://www.jetbrains.com/ruby/) / [NetBeans](https://netbeans.org/) / [Eclipse](https://www.eclipse.org/) / [Aptana Studio](http://www.aptana.com/) 甚至筆記本，教學自己Google
+  * [外掛模組也裝一下](https://blog.miniasp.com/post/2014/01/06/Useful-tool-Sublime-Text-3-Quick-Start.aspx)
   * **檢查點：請把編輯器打開的畫面截圖給我**
 * 排定唸書的時間
   * 一週至少四小時實體讀書會，分享學習心得
@@ -222,6 +225,14 @@ $ sudo gem install rails
 * 注意前面的 # 與 $ 符號，這代表了目前這個命令是以什麼身份執行的，一般身份會顯示為 $, 特權身份則為 # ，算是閱讀指引時的一個hint, 不要直接整段複製去執行囉。你會注意到特權身份的 # 本身也代表了註解，這是為了怕有人不小心貼上跑了指令把東西搞壞了
 * 每個命令執行都會從螢幕上得到一串回覆訊息，這些內容很重要最好閱讀過，尤其是尋找裡面有Error / Fatal / failed之類的語句，他會告訴你什麼地方出了問題，然後你就可以去Google找解答。很多時候命令是彼此相依的，中間失敗了下面就一起噴掉了
 * 建立專案的時候，他可能會跟你要求指定版本的ruby與安裝套件```bundle install```
+
+關於Linux命令
+
+* 有些時候你會不知道一個命令是做什麼的，或是他有哪些參數可以用，例如你想印出rails的版本編號。
+* Linux裡面一般有幾個方式你可以去查詢，man的命令讓你查詢特定指令的用法，而多數命令有內建--help參數來讓你查詢用法，例如
+  * ```man rails ```
+  * ```rails -v```
+* 當然，直接去Google也是個好辦法，不過偶而你會發現它給你的方法不一定work, 因為版本不同支援的參數也可能不同，這個時候回頭用man還是比較保險的
 
 HTML的幾個常見問題
 
