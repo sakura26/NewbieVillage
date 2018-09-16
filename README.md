@@ -270,6 +270,8 @@ Markdown
 ### 新手任務Lv.2
 
 * 製作一個網頁，請用JavaScript/jQuery加入「輸入生日，計算年齡，未滿18歲送去迪士尼」的功能
+  * 考驗的是 使用jQuery的能力 字串解析、日期換算、重新導向等。你也可以單純利用JavaScript來實現這個功能。你也會想看一下HTML的表單
+  * 進一步，你可以使用Bootstrap的模組 [Datepicker](https://jqueryui.com/datepicker/) 來讓使用者輸入日期更簡便
   * 程式碼需推上Github
   * **檢查點：給我網址**
 * 完成RoR的“Hello World”初體驗
@@ -283,9 +285,19 @@ Markdown
   * [教學](https://gitbook.tw/chapters/github/using-github-pages.html)
   * **檢查點：用妳的github pages繳交作業**
 
+關於HTML，進階一點
+
+* 還記得HTML的表單吧？定義一個form, 然後裡面可以有多個輸入欄，然後有一個reset跟一個submit按鈕
+* 如果你只是表單不要做操作，Datepicker使用者點完之後出現那個數值就已經在欄位裡了，送出就會跟著送出去。而如果你要拿這個欄位裡的數值，請參照jquery（基本上javascript就可以拿了，不過jquery比較簡單一點）
+* HTML的核心都在DOM物件，大部分的資訊也都儲存在DOM裡面。基本上你在HTML中寫個每一個文字、標籤什麼的，都會轉換成DOM物件被放置在網頁上。
+* 你可以想像HTML是網頁的設計圖，而瀏覽器會幫你像蓋房子一樣生成DOM物件放在頁面上，最終疊成你看到的樣子
+
 ### 新手任務Lv.3
 
 * 製作一個RoR網頁，實現「輸入email訂閱電子報」的功能，輸入的email將會儲存於Server上的/tmp/emaildump.txt中，並有一頁可以顯示目前儲存的所有email
+  * 考驗的是：建立基礎RoR專案、使用HTML表單傳送與接收使用者的輸入、用Ruby寫入與讀取文字檔案
+  * 進階：儲存時檢查輸入的email格式是否正確、是否重複
+  * 進階：顯示所有email的時候允許使用者對email進行排序（使用bootstrap的表格模組實現），並有一欄勾選框允許使用者刪除任意多行email(刪除功能於RoR實現)
   * 程式碼需推上Github
   * **檢查點：給我網址**
 * 使用Bootstrap把Lv1「介紹你最喜歡的作品」的網頁改寫
@@ -296,10 +308,28 @@ Markdown
 ### 新手任務Lv.4
 
 * 製作一個首頁，使用者輸入暱稱之後下次回來將會顯示該暱稱，同時有一個「忘記我的名字」
+  * 考驗的是：使用session記錄使用者資料
+  * 程式碼需推上Github
+  * **檢查點：給我網址**
+* 同Lv3的訂閱電子報，但改將資料儲存於MySQL資料庫中（建立一資料庫Lv3與一資料表email，儲存email、記錄時間、發文者IP三個欄位）
+  * 考驗的是：基礎MySQL操作
+  * 進階：對email欄位建立Index加速查詢，並以此作為避免重複寫入的方式
+  * 進階：儲存時查詢確認email是否重複
+  * 進階：允許使用者刪除任意多行email(一次刪除多筆於SQL語法實現)
+  * 程式碼需推上Github
+  * **檢查點：給我網址**
 
-待定
+### 新手任務Lv.5 WIP
 
+* 考驗的是：
 
+### 新手任務Lv.6 WIP
+
+### 新手任務Lv.7 WIP
+
+### 新手任務Lv.8 WIP
+
+### 新手任務Lv.9 WIP
 
 
 
