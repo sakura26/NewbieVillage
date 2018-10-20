@@ -367,7 +367,7 @@ news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
   * 進階：加入“把輸出改存到/tmp/head.txt”的功能，並可以從Command Line指定這個功能是否要啟動
   
 ```
-$ ruby lv25-12.rb --saveto /tmp/output /etc/passwd
+$ ruby lv25-12.rb --saveto /tmp/head.txt /etc/passwd
 ```
 * 玩轉字串轉換
   * 告訴我 ```123456``` 經過 MD5 Hash / SHA1 Hash / Base64Encode / URLEncode 之後的結果
