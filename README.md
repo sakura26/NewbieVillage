@@ -331,7 +331,7 @@ Markdown
 
 考慮到Lv.3第一關的難度似乎過高了，拆出2.5來簡化一下
 
-* 無限延伸的九九乘法表: 輸入一個數字N，然後生成NN乘法表，例如輸入3，輸出如下（練習迴圈，請while/for各寫一次）
+* 無限延伸的九九乘法表: 輸入一個數字N，然後生成NN乘法表，例如輸入3，輸出如下（練習迴圈，請while/for各寫一次。你應該要能輸入13然後生成一個13x13的大表）
   
 ```
 0|1,2,3
@@ -341,7 +341,7 @@ Markdown
 3|3,6,9
 ```
 
-* 輸入N行文字，如果文字是END則程式停止接收輸入，將前面收到的輸入轉換成HTML表格輸出
+* 輸入N行文字，如果文字是END則程式停止接收輸入，將前面收到的輸入轉換成HTML表格輸出。你應該要能處理任意行數，而非只有三行（練習變數/陣列）
 
 ```
 $ ruby text2html.rb
@@ -356,7 +356,7 @@ $ ruby text2html.rb
 </table>
 ```
 
-* 寫一個Ruby的程式，輸入檔案路徑，印出該檔案前十行。若檔案不存在，印出錯誤訊息，例如 
+* 寫一個Ruby的程式，輸入檔案路徑，印出該檔案前十行。若檔案不存在，印出錯誤訊息，例如 （練習檔案操作）
 
 ```
 $ ruby lv25-1.rb
@@ -374,7 +374,7 @@ mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
 news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
 ```
     * [參考資料](https://ruby-doc.org/docs/ruby-doc-bundle/Tutorial/part_02/user_input.html)
-  * 進階：從Command Line參數取得檔案路徑，例如
+  * 進階：從Command Line參數取得檔案路徑，例如（練習讀入指令行參數）
 
 ```
 $ ruby lv25-11.rb /etc/passwd
@@ -389,7 +389,7 @@ lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
 mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
 news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
 ```
-  * 進階：加入“把輸出改存到/tmp/head.txt”的功能，並可以從Command Line指定這個功能是否要啟動
+  * 進階：加入“把輸出改存到/tmp/head.txt”的功能，並可以從Command Line指定這個功能是否要啟動（練習讀入指令行參數，以及現代化的參數使用法）
   
 ```
 $ ruby lv25-12.rb --saveto /tmp/head.txt /etc/passwd
