@@ -1,0 +1,17 @@
+<h1>show posts</h1>
+<table>
+<thead>
+<tr>
+<th>date</th>
+<th>nickname</th>
+<th>post</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th><%= @post[:timestamp] %></th>
+<th><a href="mailto:<%= @post[:email] %>"><%= @post[:nickname] %></a></th>
+<th><%= @post[:posttext] %></th>
+</tr>
+</tbody>
+</table>

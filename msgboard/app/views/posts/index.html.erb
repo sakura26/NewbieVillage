@@ -1,0 +1,35 @@
+<h1>new post:</h1>
+<%= form_tag '/posts' do %>
+    Nickname: <%= text_field_tag 'nickname' %> <br />
+    Email: <%= text_field_tag 'email' %><br />
+    Text: <%= text_field_tag 'posttext' %><br />
+    <%= submit_tag "send" %>
+<% end %>
+
+<h1>post list</h1>
+<%= form_tag '/posts/del' do %>
+  <table border=1>
+    <thead>
+    <tr>
+      <th>select</th>
+      <th>date</th>
+      <th>nickname</th>
+      <th>post</th>
+    </tr>
+    </thead>
+    <tbody>
+    <%- @posts.each do |post| -%>
+    <tr>
+      <th><%= check_box_tag('del[]', post[:timestamp], false) %></th>
+      <th><a href="/posts/<%= post[:timestamp] %>"><%= post[:timestamp] %></a></th>
+      <% if post[:email].nil? || post[:email].length==0 %>
+      <th><%= post[:nickname]%></th>
+      <% else %>
+      <th><a href="mailto:<%= post[:email] %>"><%= post[:nickname]%></a></th>
+      <% end %>
+      <th><%= post[:posttext]%></th>
+    </tr>
+    <%- end -%>
+    </tbody>
+  </table>
+<% end %>
